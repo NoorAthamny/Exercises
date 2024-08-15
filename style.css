@@ -3,16 +3,26 @@
   padding: 0;
   box-sizing: border-box;
   transition: all 0.3s ease-in-out;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
 }
 
+header {
+  width: 70vw;
+  height: 700px;
+  background-image: url(myimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
 main {
   width: 100vw;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  margin-top: 50px;
 }
 
 img {
@@ -21,14 +31,20 @@ img {
   border-radius: 10px;
 }
 
+.text {
+  text-align: center;
+}
+
 .text h1 {
   font-size: 30px;
   margin-bottom: 10px;
+  color: rgb(63 89 99);
 }
 .text p {
   width: 400px;
   font-size: 18px;
   margin-bottom: 10px;
+  text-align: left;
 }
 
 .text i {
