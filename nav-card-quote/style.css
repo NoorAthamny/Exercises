@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+nav {
+  width: 100vw;
+  height: 70px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 70px;
+  list-style: none;
+}
+
+nav ul a {
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: white;
+  border: 1px solid #008080;
+  color: #008080;
+  border-radius: 10px;
+}
+
+nav ul a:hover {
+  background-color: #008080;
+  color: white;
+}
+
+.greeting-card {
+  width: 700px;
+  height: 300px;
+  border: 1px solid #008080;
+  background-color: white;
+  box-shadow: 0 0 20px #008080;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.greeting-card h1 {
+  color: #008080;
+  font-size: 40px;
+}
+
+.greeting-card p {
+  width: 320px;
+  text-align: center;
+}
+
+blockquote {
+  width: 100vw;
+  height: 100px;
+  border: 1px solid #008080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222222;
+  color: white;
+}
