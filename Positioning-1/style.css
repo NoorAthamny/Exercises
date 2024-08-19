@@ -1,0 +1,16 @@
+#outer {
+  width: 100px;
+  height: 100px;
+  background: darkcyan;
+  margin: 50px;
+  position: relative; /* this is the problem */
+}
+#inner {
+  width: 50px;
+  height: 50px;
+  background: lightgreen;
+  position: absolute;
+  top: 10px;
+}
+
+/* the inner box was related to the body ,  position: relative for the ouuer box will position the  inner box in relation to it. */
