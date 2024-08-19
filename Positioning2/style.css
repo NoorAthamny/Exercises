@@ -1,0 +1,16 @@
+#outer {
+  width: 100px;
+  height: 100px;
+  background: darkcyan;
+  margin: 50px;
+  position: relative; /* this is the problem */
+}
+#inner {
+  width: 50px;
+  height: 50px;
+  background: lightgreen;
+  position: relative;
+  top: 10px;
+}
+
+/* the answer is to change the position to relative for the inner box cuz relatve keeps the flow */
