@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container {
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-template-areas:
+    "image-1 image-1 image-2 image-2 image-2 image-3 image-4 image-4"
+    "image-1 image-1 image-2 image-2 image-2 image-3 image-4 image-4"
+    "image-5 image-5 image-2 image-2 image-2 image-8 image-8 image-9"
+    "image-5 image-5 image-6 image-6 image-7 image-8 image-8 image-9"
+    "image-5 image-5 image-6 image-6 image-13 image-13 image-13 image-9"
+    "image-10 image-11 image-11 image-12 image-13 image-13 image-13 image-14";
+  gap: 20px;
+}
+
+section .image-1 {
+  grid-area: image-1;
+}
+
+section .image-2 {
+  grid-area: image-2;
+}
+
+section .image-3 {
+  grid-area: image-3;
+}
+
+section .image-4 {
+  grid-area: image-4;
+}
+
+section .image-5 {
+  grid-area: image-5;
+}
+
+section .image-6 {
+  grid-area: image-6;
+}
+
+section .image-7 {
+  grid-area: image-7;
+}
+
+section .image-8 {
+  grid-area: image-8;
+}
+
+section .image-9 {
+  grid-area: image-9;
+}
+
+section .image-10 {
+  grid-area: image-10;
+}
+
+section .image-11 {
+  grid-area: image-11;
+}
+
+section .image-12 {
+  grid-area: image-12;
+}
+
+section .image-13 {
+  grid-area: image-13;
+}
+
+section .image-14 {
+  grid-area: image-14;
+}
